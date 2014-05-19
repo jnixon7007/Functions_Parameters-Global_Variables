@@ -1,9 +1,6 @@
-#Coin flip program
+#Dice Roll program
 #Describe the purpose of this program here.
-import random
-import time
-
-
+import random,time
 s1 = "- - - - -\n|       |\n|   O   |\n|       |\n- - - - -\n"
 s2 = "- - - - -\n| O     |\n|       |\n|     O |\n- - - - -\n"
 s3 = "- - - - -\n| O     |\n|   O   |\n|     O |\n- - - - -\n"
@@ -13,9 +10,9 @@ s6 = "- - - - -\n| O   O |\n| O   O |\n| O   O |\n- - - - -\n"
 
 def roll():
     print("rolling.....")
-    time.sleep(1)
+    time.sleep(0.5)
     roll = random.randint(1,6)
-    return(roll)
+    return roll
 
 
 def show_dice(roll):
@@ -32,5 +29,5 @@ def show_dice(roll):
     else:
         print(s6)
 
-roll()
+roll=roll()
 show_dice(roll)

@@ -1,5 +1,5 @@
 #Dice Roll program
-#Describe the purpose of this program here.
+#This program rolls a dice and prints out the dices face
 import random,time
 s1 = "- - - - -\n|       |\n|   O   |\n|       |\n- - - - -\n"
 s2 = "- - - - -\n| O     |\n|       |\n|     O |\n- - - - -\n"
